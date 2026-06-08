@@ -3,15 +3,14 @@ function verificarMotor(velocidadeAtual, aceleracao){
         if (velocidadeFinal <= 100){
          return {
             velocidadeFinal,
-            status: "Sistema Seguro";
-         };
+            status: "Sistema Seguro"
+         }
         }
         else{
             return{
                 velocidadeFinal,
-                status: "Sistema Inseguro";
-            };
+                status: "Sistema Inseguro"
+            }
         }
 }
-
-module.exports = verificarMotor;
+module.exports = verificarMotor
