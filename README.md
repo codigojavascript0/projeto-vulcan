@@ -10,6 +10,11 @@ Este projeto simula um sistema de monitoramento industrial dividido em dois mód
 O programa principal integra os dois módulos, executa as verificações e exibe os resultados no console.
 
 ---
+## Funções dos Integrantes
+
+- **Artur Alves**: Desenvolvimento do arquivo principal (`app.js`) e integração dos módulos.
+- **Taila Rejane**: Desenvolvimento do módulo de controle de motores (`motores.js`).
+- **Laura Mendes**: Desenvolvimento do módulo de sensores de temperatura (`sensores.js`).
 
 ## Estrutura do Projeto
 
