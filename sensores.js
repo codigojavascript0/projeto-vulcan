@@ -1,23 +1,23 @@
-function verificarTemperatura (temperatura){
+function verificarTemperatura(temperaturas) {
     let soma = 0;
 
-    for (let i = 0; i < temperaturas.lenght; i++){
-
-
+    for (let i = 0; i < temperaturas.length; i++) {
+        soma += temperaturas[i];
     }
-    
-    let media = soma / temperatura.lenght;
-    
-    if (media > 70){
+
+    let media = soma / temperaturas.length;
+
+    if (media > 70) {
         return {
             media,
             resfriamento: "LIGAR RESFRIAMENTO"
-
         };
-    } else{
+    } else {
         return {
             media,
-        resfriamento: "Temperatura Normal"
-        }
+            resfriamento: "Temperatura Normal"
+        };
     }
 }
+
+module.exports = verificarTemperatura;
